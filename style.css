@@ -8,6 +8,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
 .card-container {
     display: flex;
@@ -97,4 +98,37 @@ button{
 }
 .gallery-item:hover .overlay {
     opacity: 1;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex: 1 1 200px;
+}
+.portfolio-footer  {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.portfolio img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
