@@ -22,6 +22,12 @@
     border-radius: 4px; 
     border-color: lightslategray;
 }
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+    object-fit: cover;
+}
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -60,4 +66,35 @@ button{
     border: 1px solid black;
     padding: 10px; 
     background-color: lightcyan;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.gallery-item img {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.gallery-item:hover .overlay {
+    opacity: 1;
 }
