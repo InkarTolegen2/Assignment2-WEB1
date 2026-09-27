@@ -6,7 +6,7 @@
 
 **GitHub repository:** [https://github.com/InkarTolegen2/Assignment2-WEB1.git](https://github.com/InkarTolegen2/Assignment2-WEB1.git)
 
-**URL:**[file:///C:/Users/leftg/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Assignment2-WEB1/index.html](file:///C:/Users/leftg/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Assignment2-WEB1/index.html)
+**URL:**[https://inkartolegen2.github.io/Assignment2-WEB1/](https://inkartolegen2.github.io/Assignment2-WEB1/)
 
 
 ## Tasks
