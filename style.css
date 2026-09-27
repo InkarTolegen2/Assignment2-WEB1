@@ -13,15 +13,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20rem;
-
 }
 .card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     flex: 1;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px; 
-    border-color: aquamarine;
+    border-color: lightslategray;
 }
 .card:hover {
     transform: translateY(-5px);
@@ -31,4 +30,34 @@ button{
     border-color: black;
     border: none;
     color: black;
+}
+.page-layout {
+    display: grid;
+    grid-template-areas: "header header" "sidebar main-content" "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+.header { 
+    grid-area: header; 
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightsteelblue;
+}
+.sidebar { 
+    grid-area: sidebar; 
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+.main-content { 
+    grid-area: main-content;
+    border: 1px solid black;
+    padding: 10px; 
+    background-color:lightblue;
+}
+.footer { 
+    grid-area: footer;
+    border: 1px solid black;
+    padding: 10px; 
+    background-color: lightcyan;
 }
